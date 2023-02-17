@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="scroll-smooth" lang="es">
+<html class="scroll-smooth dark" lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,19 +12,19 @@
   <title>Travel</title>
 
 </head>
-<body class="font-Montserrat">
+<body class="font-Montserrat dark:bg-gray-900">
   <header>
-  <nav class="w-full h-14 hidden md:flex bg-white p-4 justify-between items-center">
+  <nav class="w-full h-14 hidden md:flex bg-white p-4 justify-between items-center fixed z-10 dark:bg-gray-900 text-primary dark:text-white">
     <div class="h-auto w-auto justify-self-start pl-5">
-      <p class="text-xl text-primary font-black">Logo</p>
+      <p class="text-xl font-black">Logo</p>
     </div>
     <div>
-      <ol class="flex space-x-5 px-5">
-        <li><a href="#home" class="font-semibold text-md text-primary">Inicio</a></li>
-        <li><a href="#home" class="font-semibold text-md text-primary">Recomendados</a></li>
-        <li><a href="#home" class="font-semibold text-md text-primary">Rentas</a></li>
-        <li><a href="#home" class="font-semibold text-md text-primary">FAQS</a></li>
-        <li><a href="#home" class="font-semibold text-md text-primary">Sobre nosotros</a></li>
+      <ol class="flex space-x-5 px-5 text-primary dark:text-white">
+        <li><a href="#home" class="font-semibold text-md">Inicio</a></li>
+        <li><a href="#recomendadas" class="font-semibold text-md">Recomendados</a></li>
+        <li><a href="#rentas_destacadas" class="font-semibold text-md">Rentas</a></li>
+        <li><a href="#faqs" class="font-semibold text-md">FAQS</a></li>
+        <li><a href="#sobre_nosotros" class="font-semibold text-md">Sobre nosotros</a></li>
       </ol>
     </div>
     <div class="pr-5 flex space-x-2">
@@ -186,7 +186,7 @@
     </section>
     <!-- Footer -->
   </main>
-  <footer class="w-full h-auto bg-gray-50 p-6 mb-20">
+  <footer id="sobre_nosotros" class="w-full h-auto bg-gray-50 p-6 mb-20">
     <div class="flex flex-col space-y-2">
       <p class="text-3xl font-sans font-bold text-gray-400 pb-4">Acerca de</p>
       <p class="text-lg font-sans font-semibold text-gray-300">Inversores</p>
