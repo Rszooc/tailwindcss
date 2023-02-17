@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Extrayendo componentes */
+
+.Card {
+  @apply min-w-[198px] h-64 shadow-md rounded-lg overflow-hidden transition-all transform duration-700 ease-in-out hover:-translate-y-4 hover:shadow-xl
+}
+.Card-T1 {
+  @apply w-full h-2/5 bg-secondary flex flex-col items-center
+}
+.Card-T2 {
+  @apply w-full h-2/5 bg-white flex flex-col items-center
+}
+.Title_Card_T1 {
+  @apply text-white font-bold text-xl py-2
+}
+.Title_Card_T2 {
+  @apply text-terciary font-bold text-xl py-2
+}
+.Subtitle_Card_T1 {
+  @apply text-white text-base px-4
+}
+.Subtitle_Card_T2 {
+  @apply text-terciary text-base px-4
+}
+.Card-S-Title {
+  @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white
+}
